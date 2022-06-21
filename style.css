@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 60%;
+}
+
+#Home {
+    background-color: red;
+}
+
+#News {
+    background-color: green;
+}
+
+#Contact {
+    background-color: blue;
+}
+
+#About {
+    background-color: orange;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 12px;
+    text-align: center;
+    /* line-height: 75px; */
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
