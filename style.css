@@ -45,15 +45,15 @@ html {
     transform: translate(-40%, -40%);
 }
 #imgm {
-    animation: flutuacao 10s
+    animation: flutuacao 2s
     ease-in-out infinite;
 }
 @keyframes flutuacao {
     0%, 100% {
         transform: translateY(0px);
     }
-    50% {
-        transform: translateY(-60px);
+    46% {
+        transform: translateY(-20px);
     }
 }
 
